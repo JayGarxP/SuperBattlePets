@@ -1,0 +1,10 @@
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab7_CST356\Lab6\RESTclient\RESTclient\bin\Debug\RESTclient.exe.config
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab7_CST356\Lab6\RESTclient\RESTclient\bin\Debug\RESTclient.exe
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab7_CST356\Lab6\RESTclient\RESTclient\bin\Debug\RESTclient.pdb
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab7_CST356\Lab6\RESTclient\RESTclient\bin\Debug\Newtonsoft.Json.dll
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab7_CST356\Lab6\RESTclient\RESTclient\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab7_CST356\Lab6\RESTclient\RESTclient\bin\Debug\Newtonsoft.Json.xml
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab7_CST356\Lab6\RESTclient\RESTclient\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab7_CST356\Lab6\RESTclient\RESTclient\obj\Debug\RESTclient.csprojResolveAssemblyReference.cache
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab7_CST356\Lab6\RESTclient\RESTclient\obj\Debug\RESTclient.exe
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab7_CST356\Lab6\RESTclient\RESTclient\obj\Debug\RESTclient.pdb

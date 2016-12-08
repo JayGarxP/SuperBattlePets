@@ -1,0 +1,243 @@
+c:\users\jp\documents\visual studio 2015\Projects\Lab6\Lab6\bin\roslyn\csc.exe
+c:\users\jp\documents\visual studio 2015\Projects\Lab6\Lab6\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\jp\documents\visual studio 2015\Projects\Lab6\Lab6\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\jp\documents\visual studio 2015\Projects\Lab6\Lab6\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\jp\documents\visual studio 2015\Projects\Lab6\Lab6\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\jp\documents\visual studio 2015\Projects\Lab6\Lab6\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\jp\documents\visual studio 2015\Projects\Lab6\Lab6\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\jp\documents\visual studio 2015\Projects\Lab6\Lab6\bin\roslyn\System.Collections.Immutable.dll
+c:\users\jp\documents\visual studio 2015\Projects\Lab6\Lab6\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\jp\documents\visual studio 2015\Projects\Lab6\Lab6\bin\roslyn\vbc.exe
+c:\users\jp\documents\visual studio 2015\Projects\Lab6\Lab6\bin\roslyn\VBCSCompiler.exe
+c:\users\jp\documents\visual studio 2015\Projects\Lab6\Lab6\bin\roslyn\VBCSCompiler.exe.config
+c:\users\jp\documents\visual studio 2015\Projects\Lab6\Lab6\bin\Lab6.dll.config
+c:\users\jp\documents\visual studio 2015\Projects\Lab6\Lab6\bin\Lab6.dll
+c:\users\jp\documents\visual studio 2015\Projects\Lab6\Lab6\bin\Lab6.pdb
+c:\users\jp\documents\visual studio 2015\Projects\Lab6\Lab6\bin\Antlr3.Runtime.dll
+c:\users\jp\documents\visual studio 2015\Projects\Lab6\Lab6\bin\EntityFramework.dll
+c:\users\jp\documents\visual studio 2015\Projects\Lab6\Lab6\bin\EntityFramework.SqlServer.dll
+c:\users\jp\documents\visual studio 2015\Projects\Lab6\Lab6\bin\Microsoft.AspNet.Identity.Core.dll
+c:\users\jp\documents\visual studio 2015\Projects\Lab6\Lab6\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+c:\users\jp\documents\visual studio 2015\Projects\Lab6\Lab6\bin\Microsoft.AspNet.Identity.Owin.dll
+c:\users\jp\documents\visual studio 2015\Projects\Lab6\Lab6\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\jp\documents\visual studio 2015\Projects\Lab6\Lab6\bin\Microsoft.Owin.dll
+c:\users\jp\documents\visual studio 2015\Projects\Lab6\Lab6\bin\Microsoft.Owin.Host.SystemWeb.dll
+c:\users\jp\documents\visual studio 2015\Projects\Lab6\Lab6\bin\Microsoft.Owin.Security.Cookies.dll
+c:\users\jp\documents\visual studio 2015\Projects\Lab6\Lab6\bin\Microsoft.Owin.Security.dll
+c:\users\jp\documents\visual studio 2015\Projects\Lab6\Lab6\bin\Microsoft.Owin.Security.Facebook.dll
+c:\users\jp\documents\visual studio 2015\Projects\Lab6\Lab6\bin\Microsoft.Owin.Security.Google.dll
+c:\users\jp\documents\visual studio 2015\Projects\Lab6\Lab6\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+c:\users\jp\documents\visual studio 2015\Projects\Lab6\Lab6\bin\Microsoft.Owin.Security.OAuth.dll
+c:\users\jp\documents\visual studio 2015\Projects\Lab6\Lab6\bin\Microsoft.Owin.Security.Twitter.dll
+c:\users\jp\documents\visual studio 2015\Projects\Lab6\Lab6\bin\Microsoft.Web.Infrastructure.dll
+c:\users\jp\documents\visual studio 2015\Projects\Lab6\Lab6\bin\Newtonsoft.Json.dll
+c:\users\jp\documents\visual studio 2015\Projects\Lab6\Lab6\bin\Owin.dll
+c:\users\jp\documents\visual studio 2015\Projects\Lab6\Lab6\bin\System.Web.Helpers.dll
+c:\users\jp\documents\visual studio 2015\Projects\Lab6\Lab6\bin\System.Web.Mvc.dll
+c:\users\jp\documents\visual studio 2015\Projects\Lab6\Lab6\bin\System.Web.Optimization.dll
+c:\users\jp\documents\visual studio 2015\Projects\Lab6\Lab6\bin\System.Web.Razor.dll
+c:\users\jp\documents\visual studio 2015\Projects\Lab6\Lab6\bin\System.Web.WebPages.Deployment.dll
+c:\users\jp\documents\visual studio 2015\Projects\Lab6\Lab6\bin\System.Web.WebPages.dll
+c:\users\jp\documents\visual studio 2015\Projects\Lab6\Lab6\bin\System.Web.WebPages.Razor.dll
+c:\users\jp\documents\visual studio 2015\Projects\Lab6\Lab6\bin\WebGrease.dll
+c:\users\jp\documents\visual studio 2015\Projects\Lab6\Lab6\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\jp\documents\visual studio 2015\Projects\Lab6\Lab6\bin\System.Web.Helpers.xml
+c:\users\jp\documents\visual studio 2015\Projects\Lab6\Lab6\bin\System.Web.Mvc.xml
+c:\users\jp\documents\visual studio 2015\Projects\Lab6\Lab6\bin\System.Web.Optimization.xml
+c:\users\jp\documents\visual studio 2015\Projects\Lab6\Lab6\bin\System.Web.Razor.xml
+c:\users\jp\documents\visual studio 2015\Projects\Lab6\Lab6\bin\System.Web.WebPages.xml
+c:\users\jp\documents\visual studio 2015\Projects\Lab6\Lab6\bin\System.Web.WebPages.Deployment.xml
+c:\users\jp\documents\visual studio 2015\Projects\Lab6\Lab6\bin\System.Web.WebPages.Razor.xml
+c:\users\jp\documents\visual studio 2015\Projects\Lab6\Lab6\bin\Antlr3.Runtime.pdb
+c:\users\jp\documents\visual studio 2015\Projects\Lab6\Lab6\bin\Newtonsoft.Json.xml
+c:\users\jp\documents\visual studio 2015\Projects\Lab6\Lab6\bin\EntityFramework.xml
+c:\users\jp\documents\visual studio 2015\Projects\Lab6\Lab6\bin\EntityFramework.SqlServer.xml
+c:\users\jp\documents\visual studio 2015\Projects\Lab6\Lab6\bin\Microsoft.AspNet.Identity.Core.xml
+c:\users\jp\documents\visual studio 2015\Projects\Lab6\Lab6\bin\Microsoft.AspNet.Identity.Owin.xml
+c:\users\jp\documents\visual studio 2015\Projects\Lab6\Lab6\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+c:\users\jp\documents\visual studio 2015\Projects\Lab6\Lab6\bin\Microsoft.Owin.xml
+c:\users\jp\documents\visual studio 2015\Projects\Lab6\Lab6\bin\Microsoft.Owin.Host.SystemWeb.xml
+c:\users\jp\documents\visual studio 2015\Projects\Lab6\Lab6\bin\Microsoft.Owin.Security.xml
+c:\users\jp\documents\visual studio 2015\Projects\Lab6\Lab6\bin\Microsoft.Owin.Security.Facebook.xml
+c:\users\jp\documents\visual studio 2015\Projects\Lab6\Lab6\bin\Microsoft.Owin.Security.Cookies.xml
+c:\users\jp\documents\visual studio 2015\Projects\Lab6\Lab6\bin\Microsoft.Owin.Security.OAuth.xml
+c:\users\jp\documents\visual studio 2015\Projects\Lab6\Lab6\bin\Microsoft.Owin.Security.Google.xml
+c:\users\jp\documents\visual studio 2015\Projects\Lab6\Lab6\bin\Microsoft.Owin.Security.Twitter.xml
+c:\users\jp\documents\visual studio 2015\Projects\Lab6\Lab6\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+c:\users\jp\documents\visual studio 2015\Projects\Lab6\Lab6\obj\Debug\Lab6.csprojResolveAssemblyReference.cache
+c:\users\jp\documents\visual studio 2015\Projects\Lab6\Lab6\obj\Debug\Lab6.dll
+c:\users\jp\documents\visual studio 2015\Projects\Lab6\Lab6\obj\Debug\Lab6.pdb
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab6_CST356\Lab6\Lab6\bin\roslyn\csc.exe
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab6_CST356\Lab6\Lab6\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab6_CST356\Lab6\Lab6\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab6_CST356\Lab6\Lab6\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab6_CST356\Lab6\Lab6\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab6_CST356\Lab6\Lab6\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab6_CST356\Lab6\Lab6\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab6_CST356\Lab6\Lab6\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab6_CST356\Lab6\Lab6\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab6_CST356\Lab6\Lab6\bin\roslyn\vbc.exe
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab6_CST356\Lab6\Lab6\bin\roslyn\VBCSCompiler.exe
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab6_CST356\Lab6\Lab6\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab6_CST356\Lab6\Lab6\bin\Lab6.dll.config
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab6_CST356\Lab6\Lab6\bin\Lab6.dll
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab6_CST356\Lab6\Lab6\bin\Lab6.pdb
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab6_CST356\Lab6\Lab6\bin\Antlr3.Runtime.dll
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab6_CST356\Lab6\Lab6\bin\EntityFramework.dll
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab6_CST356\Lab6\Lab6\bin\EntityFramework.SqlServer.dll
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab6_CST356\Lab6\Lab6\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab6_CST356\Lab6\Lab6\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab6_CST356\Lab6\Lab6\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab6_CST356\Lab6\Lab6\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab6_CST356\Lab6\Lab6\bin\Microsoft.Owin.dll
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab6_CST356\Lab6\Lab6\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab6_CST356\Lab6\Lab6\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab6_CST356\Lab6\Lab6\bin\Microsoft.Owin.Security.dll
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab6_CST356\Lab6\Lab6\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab6_CST356\Lab6\Lab6\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab6_CST356\Lab6\Lab6\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab6_CST356\Lab6\Lab6\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab6_CST356\Lab6\Lab6\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab6_CST356\Lab6\Lab6\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab6_CST356\Lab6\Lab6\bin\Newtonsoft.Json.dll
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab6_CST356\Lab6\Lab6\bin\nunit.framework.dll
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab6_CST356\Lab6\Lab6\bin\Owin.dll
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab6_CST356\Lab6\Lab6\bin\SimpleInjector.dll
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab6_CST356\Lab6\Lab6\bin\SimpleInjector.Integration.Web.dll
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab6_CST356\Lab6\Lab6\bin\SimpleInjector.Integration.Web.Mvc.dll
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab6_CST356\Lab6\Lab6\bin\System.Web.Helpers.dll
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab6_CST356\Lab6\Lab6\bin\System.Web.Mvc.dll
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab6_CST356\Lab6\Lab6\bin\System.Web.Optimization.dll
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab6_CST356\Lab6\Lab6\bin\System.Web.Razor.dll
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab6_CST356\Lab6\Lab6\bin\System.Web.WebPages.Deployment.dll
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab6_CST356\Lab6\Lab6\bin\System.Web.WebPages.dll
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab6_CST356\Lab6\Lab6\bin\System.Web.WebPages.Razor.dll
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab6_CST356\Lab6\Lab6\bin\WebGrease.dll
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab6_CST356\Lab6\Lab6\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab6_CST356\Lab6\Lab6\bin\nunit.framework.xml
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab6_CST356\Lab6\Lab6\bin\SimpleInjector.xml
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab6_CST356\Lab6\Lab6\bin\SimpleInjector.Integration.Web.xml
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab6_CST356\Lab6\Lab6\bin\SimpleInjector.Integration.Web.Mvc.xml
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab6_CST356\Lab6\Lab6\bin\System.Web.Helpers.xml
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab6_CST356\Lab6\Lab6\bin\System.Web.Mvc.xml
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab6_CST356\Lab6\Lab6\bin\System.Web.Optimization.xml
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab6_CST356\Lab6\Lab6\bin\System.Web.Razor.xml
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab6_CST356\Lab6\Lab6\bin\System.Web.WebPages.xml
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab6_CST356\Lab6\Lab6\bin\System.Web.WebPages.Deployment.xml
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab6_CST356\Lab6\Lab6\bin\System.Web.WebPages.Razor.xml
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab6_CST356\Lab6\Lab6\bin\Antlr3.Runtime.pdb
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab6_CST356\Lab6\Lab6\bin\Newtonsoft.Json.xml
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab6_CST356\Lab6\Lab6\bin\EntityFramework.xml
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab6_CST356\Lab6\Lab6\bin\EntityFramework.SqlServer.xml
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab6_CST356\Lab6\Lab6\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab6_CST356\Lab6\Lab6\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab6_CST356\Lab6\Lab6\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab6_CST356\Lab6\Lab6\bin\Microsoft.Owin.xml
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab6_CST356\Lab6\Lab6\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab6_CST356\Lab6\Lab6\bin\Microsoft.Owin.Security.xml
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab6_CST356\Lab6\Lab6\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab6_CST356\Lab6\Lab6\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab6_CST356\Lab6\Lab6\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab6_CST356\Lab6\Lab6\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab6_CST356\Lab6\Lab6\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab6_CST356\Lab6\Lab6\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab6_CST356\Lab6\Lab6\obj\Debug\Lab6.Migrations.InitialCreate.resources
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab6_CST356\Lab6\Lab6\obj\Debug\Lab6.Migrations.test.resources
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab6_CST356\Lab6\Lab6\obj\Debug\Lab6.csproj.GenerateResource.Cache
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab6_CST356\Lab6\Lab6\obj\Debug\Lab6.dll
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab6_CST356\Lab6\Lab6\obj\Debug\Lab6.pdb
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab6_CST356\Lab6\Lab6\obj\Debug\Lab6.csprojResolveAssemblyReference.cache
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab7_CST356\Lab6\Lab6\bin\roslyn\csc.exe
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab7_CST356\Lab6\Lab6\bin\roslyn\csc.exe.config
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab7_CST356\Lab6\Lab6\bin\roslyn\csc.rsp
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab7_CST356\Lab6\Lab6\bin\roslyn\csi.exe
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab7_CST356\Lab6\Lab6\bin\roslyn\csi.rsp
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab7_CST356\Lab6\Lab6\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab7_CST356\Lab6\Lab6\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab7_CST356\Lab6\Lab6\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab7_CST356\Lab6\Lab6\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab7_CST356\Lab6\Lab6\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab7_CST356\Lab6\Lab6\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab7_CST356\Lab6\Lab6\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab7_CST356\Lab6\Lab6\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab7_CST356\Lab6\Lab6\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab7_CST356\Lab6\Lab6\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab7_CST356\Lab6\Lab6\bin\roslyn\System.AppContext.dll
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab7_CST356\Lab6\Lab6\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab7_CST356\Lab6\Lab6\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab7_CST356\Lab6\Lab6\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab7_CST356\Lab6\Lab6\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab7_CST356\Lab6\Lab6\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab7_CST356\Lab6\Lab6\bin\roslyn\vbc.exe
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab7_CST356\Lab6\Lab6\bin\roslyn\vbc.exe.config
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab7_CST356\Lab6\Lab6\bin\roslyn\vbc.rsp
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab7_CST356\Lab6\Lab6\bin\roslyn\VBCSCompiler.exe
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab7_CST356\Lab6\Lab6\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab7_CST356\Lab6\Lab6\bin\Lab6.dll.config
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab7_CST356\Lab6\Lab6\bin\Lab6.dll
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab7_CST356\Lab6\Lab6\bin\Lab6.pdb
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab7_CST356\Lab6\Lab6\bin\Antlr3.Runtime.dll
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab7_CST356\Lab6\Lab6\bin\EntityFramework.dll
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab7_CST356\Lab6\Lab6\bin\EntityFramework.SqlServer.dll
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab7_CST356\Lab6\Lab6\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab7_CST356\Lab6\Lab6\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab7_CST356\Lab6\Lab6\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab7_CST356\Lab6\Lab6\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab7_CST356\Lab6\Lab6\bin\Microsoft.Owin.dll
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab7_CST356\Lab6\Lab6\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab7_CST356\Lab6\Lab6\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab7_CST356\Lab6\Lab6\bin\Microsoft.Owin.Security.dll
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab7_CST356\Lab6\Lab6\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab7_CST356\Lab6\Lab6\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab7_CST356\Lab6\Lab6\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab7_CST356\Lab6\Lab6\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab7_CST356\Lab6\Lab6\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab7_CST356\Lab6\Lab6\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab7_CST356\Lab6\Lab6\bin\Newtonsoft.Json.dll
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab7_CST356\Lab6\Lab6\bin\nunit.framework.dll
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab7_CST356\Lab6\Lab6\bin\Owin.dll
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab7_CST356\Lab6\Lab6\bin\SimpleInjector.dll
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab7_CST356\Lab6\Lab6\bin\SimpleInjector.Integration.Web.dll
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab7_CST356\Lab6\Lab6\bin\SimpleInjector.Integration.Web.Mvc.dll
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab7_CST356\Lab6\Lab6\bin\System.Web.Helpers.dll
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab7_CST356\Lab6\Lab6\bin\System.Web.Mvc.dll
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab7_CST356\Lab6\Lab6\bin\System.Web.Optimization.dll
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab7_CST356\Lab6\Lab6\bin\System.Web.Razor.dll
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab7_CST356\Lab6\Lab6\bin\System.Web.WebPages.Deployment.dll
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab7_CST356\Lab6\Lab6\bin\System.Web.WebPages.dll
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab7_CST356\Lab6\Lab6\bin\System.Web.WebPages.Razor.dll
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab7_CST356\Lab6\Lab6\bin\WebGrease.dll
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab7_CST356\Lab6\Lab6\bin\Antlr3.Runtime.pdb
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab7_CST356\Lab6\Lab6\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab7_CST356\Lab6\Lab6\bin\Newtonsoft.Json.xml
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab7_CST356\Lab6\Lab6\bin\nunit.framework.xml
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab7_CST356\Lab6\Lab6\bin\SimpleInjector.xml
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab7_CST356\Lab6\Lab6\bin\SimpleInjector.Integration.Web.xml
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab7_CST356\Lab6\Lab6\bin\SimpleInjector.Integration.Web.Mvc.xml
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab7_CST356\Lab6\Lab6\bin\System.Web.Helpers.xml
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab7_CST356\Lab6\Lab6\bin\System.Web.Mvc.xml
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab7_CST356\Lab6\Lab6\bin\System.Web.Optimization.xml
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab7_CST356\Lab6\Lab6\bin\System.Web.Razor.xml
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab7_CST356\Lab6\Lab6\bin\System.Web.WebPages.xml
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab7_CST356\Lab6\Lab6\bin\System.Web.WebPages.Deployment.xml
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab7_CST356\Lab6\Lab6\bin\System.Web.WebPages.Razor.xml
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab7_CST356\Lab6\Lab6\bin\EntityFramework.xml
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab7_CST356\Lab6\Lab6\bin\EntityFramework.SqlServer.xml
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab7_CST356\Lab6\Lab6\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab7_CST356\Lab6\Lab6\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab7_CST356\Lab6\Lab6\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab7_CST356\Lab6\Lab6\bin\Microsoft.Owin.xml
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab7_CST356\Lab6\Lab6\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab7_CST356\Lab6\Lab6\bin\Microsoft.Owin.Security.xml
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab7_CST356\Lab6\Lab6\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab7_CST356\Lab6\Lab6\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab7_CST356\Lab6\Lab6\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab7_CST356\Lab6\Lab6\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab7_CST356\Lab6\Lab6\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab7_CST356\Lab6\Lab6\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab7_CST356\Lab6\Lab6\obj\Debug\Lab6.csprojResolveAssemblyReference.cache
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab7_CST356\Lab6\Lab6\obj\Debug\Lab6.Migrations.InitialCreate.resources
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab7_CST356\Lab6\Lab6\obj\Debug\Lab6.Migrations.test.resources
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab7_CST356\Lab6\Lab6\obj\Debug\Lab6.csproj.GenerateResource.Cache
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab7_CST356\Lab6\Lab6\obj\Debug\Lab6.dll
+C:\Users\JP\Desktop\WebDevREDEMPTION\Lab7_CST356\Lab6\Lab6\obj\Debug\Lab6.pdb
