@@ -20,7 +20,7 @@ namespace Lab6.Data
 
         public List<User> GetAllUsers()
         {
-            return _databaseContext.Users.ToList();
+            return _databaseContext.CustomUsers.ToList();
 
         }
 
@@ -30,13 +30,13 @@ namespace Lab6.Data
             {
                 _databaseContext.Pets.Attach(aPet);
             }
-            _databaseContext.Users.Add(user);
+            _databaseContext.CustomUsers.Add(user);
             _databaseContext.SaveChanges();
         }
 
         public User GetAUserByID(int id)
         {
-            return _databaseContext.Users.Find(id);
+            return _databaseContext.CustomUsers.Find(id);
         }
 
         public void UpdateUser(User uza)
@@ -47,7 +47,7 @@ namespace Lab6.Data
 
         public void RemoveUser(User uza)
         {
-            _databaseContext.Users.Remove(uza);
+            _databaseContext.CustomUsers.Remove(uza);
             _databaseContext.SaveChanges();
         }
 
@@ -67,7 +67,7 @@ namespace Lab6.Data
         public void AddNewPet(Pet newPet) {
             foreach (var uza in newPet.Users)
             {
-                _databaseContext.Users.Attach(uza);
+                _databaseContext.CustomUsers.Attach(uza);
             }
             _databaseContext.Pets.Add(newPet);
             _databaseContext.SaveChanges();

@@ -10,20 +10,17 @@ using Lab6.Models;
 using Lab6.Data;
 using Lab6.App_Start;
 using Lab6.Services;
+using Microsoft.AspNet.Identity;
+using Microsoft.AspNet.Identity.Owin;
 
 namespace Lab6.Controllers
 {
     [Authorize]
     public class PetsController : Controller
     {
-        //private DBContext db = new DBContext();
-
         private readonly DatabaseAccessI _dataRepository;
         private readonly I_PetServices _petServices;
-        //public PetsController() {
-        //    //_dataRepository = new Data.DatabaseAccess();
-        //}
-
+     
         public PetsController(DatabaseAccessI dataRepository, I_PetServices petServices)
         {
             _dataRepository = dataRepository;
@@ -34,11 +31,6 @@ namespace Lab6.Controllers
         public ActionResult Index()
         {
             var petz = _dataRepository.GetAllPets();
-            //foreach (var pet in petz)
-            //{
-            //    //determine daily skill 
-            //    pet.MerchantSkill = _petServices.GenerateDailyShopAbility(pet);
-            //}
             return View(petz);
         }
 
@@ -78,7 +70,10 @@ namespace Lab6.Controllers
         {
             if (ModelState.IsValid)
             {
+                ApplicationUser user = System.Web.HttpContext.Current.GetOwinContext().GetUserManager<ApplicationUserManager>().FindById(System.Web.HttpContext.Current.User.Identity.GetUserId());
                 pet.Users = new List<User>();
+
+                if (UserIds != null) {
                 //HL: many to many ORM ???
                 foreach (var aUserRef in UserIds)
                 {
@@ -86,9 +81,10 @@ namespace Lab6.Controllers
                         new User { PersonID = aUserRef }
                         );
                 }
+                }
 
                 _dataRepository.AddNewPet(pet);
-
+            
                 return RedirectToAction("Index");
             }
 

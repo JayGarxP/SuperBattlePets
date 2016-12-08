@@ -203,6 +203,10 @@
     <Compile Include="Migrations\201612040154419_test.Designer.cs">
       <DependentUpon>201612040154419_test.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201612082342559_CustomUsers.cs" />
+    <Compile Include="Migrations\201612082342559_CustomUsers.Designer.cs">
+      <DependentUpon>201612082342559_CustomUsers.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\DBContext.cs" />
@@ -210,6 +214,7 @@
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\Pet.cs" />
     <Compile Include="Models\User.cs" />
+    <Compile Include="Models\Wealth.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\I_PetServices.cs" />
     <Compile Include="Services\PetServices.cs" />
@@ -310,6 +315,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201612040154419_test.resx">
       <DependentUpon>201612040154419_test.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201612082342559_CustomUsers.resx">
+      <DependentUpon>201612082342559_CustomUsers.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

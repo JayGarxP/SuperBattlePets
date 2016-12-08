@@ -13,6 +13,8 @@ namespace Lab6.Models
         [Key]
         public int PersonID { get; set; } //accidentally named this horribly, auto-refactoring will not work at this point. :(
 
+        [Required]
+        public string creator { get; set; }
 
         [Display(Name = "First Name")]
         [Required]

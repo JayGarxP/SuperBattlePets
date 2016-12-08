@@ -19,7 +19,7 @@ namespace Lab6.Models
         }
 
         
-        public virtual ICollection<User> Users { get; set; }
+        public virtual ICollection<User> CustomUsers { get; set; }
         public virtual ICollection<Pet> Pets { get; set; }
     }
 
@@ -30,7 +30,7 @@ namespace Lab6.Models
         {}
 
         //Users 'hides inherited member' wtf? 
-        public System.Data.Entity.DbSet<Lab6.Models.User> Users { get; set; }
+        public System.Data.Entity.DbSet<Lab6.Models.User> CustomUsers { get; set; }
         
         public System.Data.Entity.DbSet<Lab6.Models.Pet> Pets { get; set; }
      
