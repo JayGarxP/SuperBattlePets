@@ -28,12 +28,22 @@ namespace Lab6.Data
             return _databaseContext.CustomUsers.ToList();
 
         }
+        public List<User> GetAllUsers(string username)
+        {
+            var usersAccounts = _databaseContext.CustomUsers
+                  .Where(uza => uza.creator == username)
+                  .ToList();
+            return usersAccounts;
+        }
 
         public void AddNewUser(User user)
         {
-            foreach (var aPet in user.MyPets)
+            if (user.MyPets != null)
             {
-                _databaseContext.Pets.Attach(aPet);
+                foreach (var aPet in user.MyPets)
+                {
+                    _databaseContext.Pets.Attach(aPet);
+                }
             }
             _databaseContext.CustomUsers.Add(user);
             _databaseContext.SaveChanges();
@@ -104,11 +114,6 @@ namespace Lab6.Data
             var usersPets = _databaseContext.Pets
                   .Where(pat => pat.Creator == username)
                   .ToList();
-            // List<Pet> usersPets = _databaseContext.Pets.ToList();
-            //foreach (var pat in usersPets)
-            //{
-
-            //}
             return usersPets;
         }
     }

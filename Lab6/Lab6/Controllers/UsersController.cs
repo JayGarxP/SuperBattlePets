@@ -8,6 +8,7 @@ using System.Web;
 using System.Web.Mvc;
 using Lab6.Models;
 using Lab6.Data; //database repo services
+using Microsoft.AspNet.Identity;
 
 namespace Lab6.Controllers
 {
@@ -15,23 +16,16 @@ namespace Lab6.Controllers
     public class UsersController : Controller
     {
         private readonly DatabaseAccessI _dataRepository;
-        //private DBContext db = new DBContext(); //replaced by DatabaseAccess Interface
-
-        ///NO longer need because of dependency injection package
-        //public UsersController()
-        //{
-        //    _dataRepository = new Data.DatabaseAccess();
-        //}
 
         public UsersController(DatabaseAccessI dataRepository) {
             _dataRepository = dataRepository;
         }
 
-
         // GET: UsersEF
         public ActionResult Index()
         {
-            var persons = _dataRepository.GetAllUsers();
+            //var persons = _dataRepository.GetAllUsers();
+            var persons = _dataRepository.GetAllUsers(System.Web.HttpContext.Current.User.Identity.GetUserName());
             return View(persons);
         }
 
@@ -72,10 +66,12 @@ namespace Lab6.Controllers
         {
             if (ModelState.IsValid)
             {
-                user.MyPets = new List<Pet>();
+                string creatore = System.Web.HttpContext.Current.User.Identity.GetUserName();
+                
                 // TODO: add UI hook to add pets either in create or seperate service 
                 if (PetIds != null)
                 {
+                    user.MyPets = new List<Pet>();
                     // Add all pets to user's collection of pets
                     foreach (var petNum in PetIds)
                     {
@@ -84,6 +80,7 @@ namespace Lab6.Controllers
                             );
                     }
                 }
+                user.creator = creatore;
                 _dataRepository.AddNewUser(user);
 
                 return RedirectToAction("Index");

@@ -219,6 +219,10 @@
     <Compile Include="Migrations\201612090508490_PetCreatorNOTrequired.Designer.cs">
       <DependentUpon>201612090508490_PetCreatorNOTrequired.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201612090542051_UserCreatorNOTrequired.cs" />
+    <Compile Include="Migrations\201612090542051_UserCreatorNOTrequired.Designer.cs">
+      <DependentUpon>201612090542051_UserCreatorNOTrequired.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\DBContext.cs" />
@@ -339,6 +343,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201612090508490_PetCreatorNOTrequired.resx">
       <DependentUpon>201612090508490_PetCreatorNOTrequired.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201612090542051_UserCreatorNOTrequired.resx">
+      <DependentUpon>201612090542051_UserCreatorNOTrequired.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

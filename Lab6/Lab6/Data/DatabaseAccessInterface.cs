@@ -9,6 +9,7 @@ namespace Lab6.Data
     public interface DatabaseAccessI
     {
         List<User> GetAllUsers();
+        List<User> GetAllUsers(string username);
         void AddNewUser(User person);
         User GetAUserByID(int id);
         void UpdateUser(User id);

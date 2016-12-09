@@ -26,14 +26,12 @@ namespace Lab6.Controllers
         {
             _dataRepository = dataRepository;
             _petServices = petServices;
-
-           
         }
 
         // GET: Pets; 
         public ActionResult Index()
         {
-            var petz = _dataRepository.GetAllPets();
+            var petz = _dataRepository.GetAllPets(System.Web.HttpContext.Current.User.Identity.GetUserName());
             return View(petz);
         }
 
@@ -85,7 +83,7 @@ namespace Lab6.Controllers
                         );
                 }
                 }
-                //pet.Creator = _user.UserName;
+                
                 pet.Creator = creator;
                 _dataRepository.AddNewPet(pet);
                 
