@@ -15,14 +15,14 @@ namespace Lab6.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "Super Battle Pets";
 
             return View();
         }
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "We're NOT currently hiring OR accepting invitations to war";
 
             return View();
         }

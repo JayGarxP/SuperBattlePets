@@ -67,6 +67,8 @@ namespace Lab6.Controllers
             if (ModelState.IsValid)
             {
                 string creatore = System.Web.HttpContext.Current.User.Identity.GetUserName();
+                Wealth MyMoney = new Wealth();
+                MyMoney.Cash = 300;
                 
                 // TODO: add UI hook to add pets either in create or seperate service 
                 if (PetIds != null)
@@ -81,6 +83,7 @@ namespace Lab6.Controllers
                     }
                 }
                 user.creator = creatore;
+                user.MyWealth = MyMoney;
                 _dataRepository.AddNewUser(user);
 
                 return RedirectToAction("Index");

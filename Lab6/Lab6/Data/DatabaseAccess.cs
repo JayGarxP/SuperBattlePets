@@ -6,6 +6,7 @@ using Lab6.Models;
 using System.Data.Entity;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.EntityFramework;
+using System.Web.Mvc;
 
 namespace Lab6.Data
 {
@@ -34,6 +35,19 @@ namespace Lab6.Data
                   .Where(uza => uza.creator == username)
                   .ToList();
             return usersAccounts;
+        }
+
+        //For Pet's dropdown buy menu; this should be in own ViewModel 
+        public List<SelectListItem> GetListItemofUsersCash(string username)
+        {
+            List<SelectListItem> UserCash = new List<SelectListItem>();
+            foreach (var uza in GetAllUsers(username))
+            {
+                UserCash.Add(new SelectListItem { Text = uza.FirstName + " " + uza.MyWealth.Cash.ToString(),
+                    Value = uza.PersonID.ToString() });
+            }
+            
+            return UserCash;
         }
 
         public void AddNewUser(User user)

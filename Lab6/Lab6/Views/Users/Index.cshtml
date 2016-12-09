@@ -4,9 +4,7 @@
     ViewBag.Title = "Index";
     int counter = 0;
 }
-
-<h2>Index</h2>
-<div class="well">Master List of Users</div>
+<h2>Your Users</h2>
 
 <p>
     @Html.ActionLink("Create New", "Create", null, htmlAttributes: new { @class = "btn btn-primary btn-lg" })
@@ -24,6 +22,9 @@
         </th>
         <th>
             @Html.DisplayNameFor(model => model.GalRanchConsumed)
+        </th>
+        <th> 
+            @Html.DisplayNameFor(model => model.MyWealth.Cash)
         </th>
         <th></th>
     </tr>
@@ -44,6 +45,9 @@
         <td class="tRowsCol">
             @Html.DisplayFor(modelItem => item.GalRanchConsumed)
         </td>
+        <td class="tRowsCol">
+            @Html.DisplayFor(modelItem => item.MyWealth.Cash)
+        </td>
         <td>
             @Html.ActionLink("Edit", "Edit", new { id = item.PersonID }, htmlAttributes: new { @class = "btn btn-primary btn-sm" }) 
             @Html.ActionLink("Details", "Details", new { id = item.PersonID }, htmlAttributes: new { @class = "btn btn-primary btn-sm" }) 
@@ -51,11 +55,11 @@
         </td>
     </tr>
 }
-    @if (counter > 2)
+    @if (counter > 7)
     {
         <div class="alert alert-info alert-dismissible">
             <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
-            <strong>Whoa!</strong> That's a lot of users
+            <strong>Whoa!</strong> That's a lot of users, you should focus on ONE at a time
         </div>
     }
 

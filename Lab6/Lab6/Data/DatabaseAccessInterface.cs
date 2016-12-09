@@ -4,12 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Lab6.Models;
+using System.Web.Mvc;
+
 namespace Lab6.Data
 {
     public interface DatabaseAccessI
     {
         List<User> GetAllUsers();
         List<User> GetAllUsers(string username);
+        List<SelectListItem> GetListItemofUsersCash(string username);
         void AddNewUser(User person);
         User GetAUserByID(int id);
         void UpdateUser(User id);

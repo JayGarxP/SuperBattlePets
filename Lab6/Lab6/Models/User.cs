@@ -36,6 +36,8 @@ namespace Lab6.Models
 
         //A user has Pets ??? Don't understand what the database really does from this
         public virtual List<Pet> MyPets { get; set; }
+
+        public virtual Wealth MyWealth { get; set; }
     }
 
 }

@@ -223,6 +223,14 @@
     <Compile Include="Migrations\201612090542051_UserCreatorNOTrequired.Designer.cs">
       <DependentUpon>201612090542051_UserCreatorNOTrequired.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201612090644561_Wealth.cs" />
+    <Compile Include="Migrations\201612090644561_Wealth.Designer.cs">
+      <DependentUpon>201612090644561_Wealth.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201612090745060_Wealth2.cs" />
+    <Compile Include="Migrations\201612090745060_Wealth2.Designer.cs">
+      <DependentUpon>201612090745060_Wealth2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\DBContext.cs" />
@@ -346,6 +354,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201612090542051_UserCreatorNOTrequired.resx">
       <DependentUpon>201612090542051_UserCreatorNOTrequired.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201612090644561_Wealth.resx">
+      <DependentUpon>201612090644561_Wealth.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201612090745060_Wealth2.resx">
+      <DependentUpon>201612090745060_Wealth2.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

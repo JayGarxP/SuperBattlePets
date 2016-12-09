@@ -22,6 +22,9 @@ namespace Lab6.Models
         [Required]
         public string NickName { get; set; }
 
+        [Display(Name = "Species")]
+        public int Species { get; set; }
+
         [NotMapped]
         public int MerchantSkill { get; set; }
 

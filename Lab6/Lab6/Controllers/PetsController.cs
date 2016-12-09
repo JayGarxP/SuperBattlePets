@@ -55,9 +55,11 @@ namespace Lab6.Controllers
         // GET: Pets/Create
         public ActionResult Create()
         {
-            //??? Should this be Users view instead??
-            var pets = _dataRepository.GetAllPets();
+            string usrname = System.Web.HttpContext.Current.User.Identity.GetUserName();
+
+            var pets = _dataRepository.GetAllPets(usrname);
             ViewBag.GroupList = new MultiSelectList(pets, "PetID", "Nickname");
+            ViewBag.UserCashDD = _dataRepository.GetListItemofUsersCash(usrname);
             return View();
         }
 

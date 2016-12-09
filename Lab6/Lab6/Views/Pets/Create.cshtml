@@ -4,27 +4,51 @@
     ViewBag.Title = "Create";
 }
 
-<h2>Create</h2>
+<h2>Buy Loving Pets!</h2>
+<table style="width:100%">
+    <tr>
+        <th>Kindness!</th>
+        <th>Health!</th>
+        <th>Success!</th>
+    </tr>
+    <tr>
+        <th>
+            <img src="../Content/images/kindness.jpg" />
+        </th>
+        <th>
+            <img src="../Content/images/health.jpg" />
+        </th>
+        <th>
+            <img src="../Content/images/success.jpg" />
+        </th>
+    </tr>
 
-@using (Html.BeginForm()) 
+</table>
+
+
+@using (Html.BeginForm())
 {
     @Html.AntiForgeryToken()
-    
-    <div class="form-horizontal">
-        <h4>Pet</h4>
+    <div class="container-fluid">
         <hr />
         @Html.ValidationSummary(true, "", new { @class = "text-danger" })
         <div class="form-group">
-            @Html.LabelFor(model => model.NickName, htmlAttributes: new { @class = "control-label col-md-2" })
-            <div class="col-md-10">
+            <div class="row">
+                    @Html.LabelFor(model => model.NickName, htmlAttributes: new { @class = "control-label col-md-6" })
+                <div class="col-md-6"><b>User : Cash</b></div>
+                </div>
+            <div class="row">
                 @Html.EditorFor(model => model.NickName, new { htmlAttributes = new { @class = "form-control" } })
                 @Html.ValidationMessageFor(model => model.NickName, "", new { @class = "text-danger" })
+                <div class="col-md-offset-6">
+                    @Html.DropDownList("UserCashDD")
+                </div>
             </div>
-        </div>
 
+            </div>
         <div class="form-group">
             <div class="col-md-offset-2 col-md-10">
-                <input type="submit" value="Create" class="btn btn-default" />
+                <input type="submit" value="Buy" class="btn btn-default" />
             </div>
         </div>
     </div>
