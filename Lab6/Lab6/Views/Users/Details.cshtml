@@ -41,7 +41,17 @@
         <dd>
             @Html.DisplayFor(model => model.GalRanchConsumed)
         </dd>
-
+        <dt>
+            Pets
+        </dt>
+        <dd>
+            @foreach (var pat in Model.MyPets)
+            {
+                @*@Html.ActionLink(pat.NickName, "Details", "Pets", new { id = pat.PetID })*@
+                @Html.ActionLink(pat.NickName, "Details", "Pets",  new { id = pat.PetID}, null)
+                <br>
+            }
+        </dd>
     </dl>
 </div>
 <p>

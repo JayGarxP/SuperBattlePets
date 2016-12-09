@@ -26,6 +26,9 @@
         <th> 
             @Html.DisplayNameFor(model => model.MyWealth.Cash)
         </th>
+        <th>
+            Num. Pets
+        </th>
         <th></th>
     </tr>
 
@@ -47,6 +50,9 @@
         </td>
         <td class="tRowsCol">
             @Html.DisplayFor(modelItem => item.MyWealth.Cash)
+        </td>
+        <td class="tRowsCol">
+            @Html.DisplayFor(modelItem => item.MyPets.Count)
         </td>
         <td>
             @Html.ActionLink("Edit", "Edit", new { id = item.PersonID }, htmlAttributes: new { @class = "btn btn-primary btn-sm" }) 

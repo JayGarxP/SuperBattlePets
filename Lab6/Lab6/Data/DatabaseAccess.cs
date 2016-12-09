@@ -80,6 +80,12 @@ namespace Lab6.Data
             _databaseContext.SaveChanges();
         }
 
+        public double BuyPet(double cost, int CustUserID)
+        {
+            User victim = GetAUserByID(CustUserID);
+            victim.MyWealth.Cash = victim.MyWealth.Cash - cost;
+            return victim.MyWealth.Cash;
+        }
 
 
 
@@ -130,5 +136,7 @@ namespace Lab6.Data
                   .ToList();
             return usersPets;
         }
+
+        
     }
 }

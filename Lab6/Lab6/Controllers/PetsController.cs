@@ -79,6 +79,7 @@ namespace Lab6.Controllers
             {
                 string creator = System.Web.HttpContext.Current.User.Identity.GetUserName();
                 int CustomUserEyeD = int.Parse(UserDDForm[0]);
+                _dataRepository.BuyPet(100.00, CustomUserEyeD);
                 int speeshis = int.Parse(SpeciesDDForm[0]);
                 //ApplicationUser _user = System.Web.HttpContext.Current.GetOwinContext().GetUserManager<ApplicationUserManager>().FindById(System.Web.HttpContext.Current.User.Identity.GetUserId());
 

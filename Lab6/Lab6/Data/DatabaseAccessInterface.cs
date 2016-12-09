@@ -17,6 +17,7 @@ namespace Lab6.Data
         User GetAUserByID(int id);
         void UpdateUser(User id);
         void RemoveUser(User id);
+        double BuyPet(double cost, int UzerID);
 
         List<Pet> GetAllPets();
         //Get list of all pets that belong to given ApplicationUser ' username
