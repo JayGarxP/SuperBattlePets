@@ -3,23 +3,27 @@
 @{
     ViewBag.Title = "Create";
 }
+<script src="../Scripts/petClicker.js" async></script>
+<script>
+    clickPet(speciesID);
+</script>
 
 <h2>Buy Loving Pets!</h2>
 <table style="width:100%">
     <tr>
-        <th>Kindness!</th>
-        <th>Health!</th>
-        <th>Success!</th>
+        <th id="kindness">Kindness!</th>
+        <th id="health">Health!</th>
+        <th id="success">Success!</th>
     </tr>
     <tr>
         <th>
-            <img src="../Content/images/kindness.jpg" />
+            <img onclick="clickPet(0)" src="../Content/images/kindness.jpg" />
         </th>
         <th>
-            <img src="../Content/images/health.jpg" />
+            <img onclick="clickPet(1)" src="../Content/images/health.jpg" />
         </th>
         <th>
-            <img src="../Content/images/success.jpg" />
+            <img onclick="clickPet(2)" src="../Content/images/success.jpg" />
         </th>
     </tr>
 
@@ -43,6 +47,8 @@
                 <div class="col-md-offset-6">
                     @Html.DropDownList("UserCashDD")
                 </div>
+                @Html.Hidden("petClickedID", 0)
+                @*<input type="hidden" value=0 id="petClickedID" />*@
             </div>
 
             </div>

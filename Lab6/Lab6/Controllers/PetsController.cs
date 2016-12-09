@@ -72,12 +72,14 @@ namespace Lab6.Controllers
             List<int>UserIds, string CustomUserID)
         {
            //string giveUP = Request.Form.ToString();
-            string []FormData = Request.Form.GetValues("UserCashDD");
-            
+            string []UserDDForm = Request.Form.GetValues("UserCashDD");
+            string[] SpeciesDDForm = Request.Form.GetValues("petClickedID");
+
             if (ModelState.IsValid)
             {
                 string creator = System.Web.HttpContext.Current.User.Identity.GetUserName();
-                int CustomUserEyeD = int.Parse(FormData[0]);
+                int CustomUserEyeD = int.Parse(UserDDForm[0]);
+                int speeshis = int.Parse(SpeciesDDForm[0]);
                 //ApplicationUser _user = System.Web.HttpContext.Current.GetOwinContext().GetUserManager<ApplicationUserManager>().FindById(System.Web.HttpContext.Current.User.Identity.GetUserId());
 
                 if (UserIds != null)
@@ -110,6 +112,7 @@ namespace Lab6.Controllers
                 }
                 
                 pet.Creator = creator;
+                pet.Species = speeshis;
                 _dataRepository.AddNewPet(pet);
                 
 
