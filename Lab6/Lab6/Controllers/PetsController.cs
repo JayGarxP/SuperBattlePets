@@ -12,6 +12,7 @@ using Lab6.App_Start;
 using Lab6.Services;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
+using Microsoft.AspNet.Identity.EntityFramework;
 
 namespace Lab6.Controllers
 {
@@ -20,11 +21,13 @@ namespace Lab6.Controllers
     {
         private readonly DatabaseAccessI _dataRepository;
         private readonly I_PetServices _petServices;
-     
+
         public PetsController(DatabaseAccessI dataRepository, I_PetServices petServices)
         {
             _dataRepository = dataRepository;
             _petServices = petServices;
+
+           
         }
 
         // GET: Pets; 
@@ -70,24 +73,25 @@ namespace Lab6.Controllers
         {
             if (ModelState.IsValid)
             {
-                ApplicationUser user = System.Web.HttpContext.Current.GetOwinContext().GetUserManager<ApplicationUserManager>().FindById(System.Web.HttpContext.Current.User.Identity.GetUserId());
-                pet.Users = new List<User>();
-
+                string creator = System.Web.HttpContext.Current.User.Identity.GetUserName();
+                //ApplicationUser _user = System.Web.HttpContext.Current.GetOwinContext().GetUserManager<ApplicationUserManager>().FindById(System.Web.HttpContext.Current.User.Identity.GetUserId());
                 if (UserIds != null) {
-                //HL: many to many ORM ???
-                foreach (var aUserRef in UserIds)
+                    pet.Users = new List<User>();
+                    //many to many ORM ???
+                    foreach (var aUserRef in UserIds)
                 {
                     pet.Users.Add(
                         new User { PersonID = aUserRef }
                         );
                 }
                 }
-
+                //pet.Creator = _user.UserName;
+                pet.Creator = creator;
                 _dataRepository.AddNewPet(pet);
-            
+                
+
                 return RedirectToAction("Index");
             }
-
             return View(pet);
         }
 

@@ -15,6 +15,8 @@ namespace Lab6.Models
         [Key]
         public int PetID { get; set; }
 
+        //[Required] //Creator is determined programmatically from logged in ApplicationUser
+        public string Creator { get; set; }
 
         [Display(Name = "Nickname")]
         [Required]

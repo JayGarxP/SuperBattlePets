@@ -15,6 +15,8 @@ namespace Lab6.Data
         void RemoveUser(User id);
 
         List<Pet> GetAllPets();
+        //Get list of all pets that belong to given ApplicationUser ' username
+        List<Pet> GetAllPets(string username);
         void AddNewPet(Pet newPet);
         Pet GetAPetByID(int id);
         void UpdatePet(Pet id);

@@ -4,17 +4,22 @@ using System.Linq;
 using System.Web;
 using Lab6.Models;
 using System.Data.Entity;
+using Microsoft.AspNet.Identity;
+using Microsoft.AspNet.Identity.EntityFramework;
 
 namespace Lab6.Data
 {
     public class DatabaseAccess : DatabaseAccessI
     {
         private readonly ApplicationDbContext _databaseContext;
+        //Does this need context in each controller?
+        protected UserManager<ApplicationUser> _UserManager { get; set; }
 
         public DatabaseAccess() : base()
         {
             //DBContext is the Entity framework auto-genned database
             _databaseContext = new ApplicationDbContext();
+            _UserManager = new UserManager<ApplicationUser>(new UserStore<ApplicationUser>(_databaseContext));
         }
 
 
@@ -64,10 +69,14 @@ namespace Lab6.Data
             return _databaseContext.Pets.ToList();
         }
 
-        public void AddNewPet(Pet newPet) {
-            foreach (var uza in newPet.Users)
+        public void AddNewPet(Pet newPet)
+        {
+            if (newPet.Users != null)
             {
-                _databaseContext.CustomUsers.Attach(uza);
+                foreach (var uza in newPet.Users)
+                {
+                    _databaseContext.CustomUsers.Attach(uza);
+                }
             }
             _databaseContext.Pets.Add(newPet);
             _databaseContext.SaveChanges();
@@ -78,14 +87,29 @@ namespace Lab6.Data
             return _databaseContext.Pets.Find(id);
         }
 
-        public void UpdatePet(Pet pyet) {
+        public void UpdatePet(Pet pyet)
+        {
             _databaseContext.Entry(pyet).State = EntityState.Modified;
             _databaseContext.SaveChanges();
         }
 
-        public void RemovePet(Pet pyet) {
+        public void RemovePet(Pet pyet)
+        {
             _databaseContext.Pets.Remove(pyet);
             _databaseContext.SaveChanges();
+        }
+
+        public List<Pet> GetAllPets(string username)
+        {
+            var usersPets = _databaseContext.Pets
+                  .Where(pat => pat.Creator == username)
+                  .ToList();
+            // List<Pet> usersPets = _databaseContext.Pets.ToList();
+            //foreach (var pat in usersPets)
+            //{
+
+            //}
+            return usersPets;
         }
     }
 }

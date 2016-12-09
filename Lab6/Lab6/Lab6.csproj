@@ -207,6 +207,18 @@
     <Compile Include="Migrations\201612082342559_CustomUsers.Designer.cs">
       <DependentUpon>201612082342559_CustomUsers.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201612090352556_creatorINPetandUser.cs" />
+    <Compile Include="Migrations\201612090352556_creatorINPetandUser.Designer.cs">
+      <DependentUpon>201612090352556_creatorINPetandUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201612090430322_PetmodelInvalid.cs" />
+    <Compile Include="Migrations\201612090430322_PetmodelInvalid.Designer.cs">
+      <DependentUpon>201612090430322_PetmodelInvalid.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201612090508490_PetCreatorNOTrequired.cs" />
+    <Compile Include="Migrations\201612090508490_PetCreatorNOTrequired.Designer.cs">
+      <DependentUpon>201612090508490_PetCreatorNOTrequired.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\DBContext.cs" />
@@ -318,6 +330,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201612082342559_CustomUsers.resx">
       <DependentUpon>201612082342559_CustomUsers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201612090352556_creatorINPetandUser.resx">
+      <DependentUpon>201612090352556_creatorINPetandUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201612090430322_PetmodelInvalid.resx">
+      <DependentUpon>201612090430322_PetmodelInvalid.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201612090508490_PetCreatorNOTrequired.resx">
+      <DependentUpon>201612090508490_PetCreatorNOTrequired.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
