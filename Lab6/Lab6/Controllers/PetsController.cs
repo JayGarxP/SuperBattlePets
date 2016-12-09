@@ -69,21 +69,44 @@ namespace Lab6.Controllers
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Create([Bind(Include = "PetID,NickName")] Pet pet,
-            List<int>UserIds)
+            List<int>UserIds, string CustomUserID)
         {
+           //string giveUP = Request.Form.ToString();
+            string []FormData = Request.Form.GetValues("UserCashDD");
+            
             if (ModelState.IsValid)
             {
                 string creator = System.Web.HttpContext.Current.User.Identity.GetUserName();
+                int CustomUserEyeD = int.Parse(FormData[0]);
                 //ApplicationUser _user = System.Web.HttpContext.Current.GetOwinContext().GetUserManager<ApplicationUserManager>().FindById(System.Web.HttpContext.Current.User.Identity.GetUserId());
-                if (UserIds != null) {
+
+                if (UserIds != null)
+                {
                     pet.Users = new List<User>();
                     //many to many ORM ???
                     foreach (var aUserRef in UserIds)
-                {
-                    pet.Users.Add(
-                        new User { PersonID = aUserRef }
-                        );
+                    {
+                        pet.Users.Add(
+                            new User { PersonID = aUserRef }
+                            );
+                    }
                 }
+                else {
+                    bool alreadyExists = false;
+                    if (pet.Users == null)
+                    {
+                        pet.Users = new List<User>();
+                    }
+                    else {//Pet already belongs to at least 1 user; don't add any users twice!
+                        foreach (var uza in pet.Users)
+                        {
+                            if (uza.PersonID == CustomUserEyeD) { alreadyExists = true; }
+                        }
+                    }
+                    if (!alreadyExists)
+                    {
+                        pet.Users.Add(_dataRepository.GetAUserByID(CustomUserEyeD));
+                    }
                 }
                 
                 pet.Creator = creator;
