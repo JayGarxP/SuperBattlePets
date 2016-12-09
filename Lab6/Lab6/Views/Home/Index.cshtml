@@ -4,5 +4,26 @@
 }
 
 <h2>Relaxation Benefits Productivity and Leveraging Synergistic Solutions</h2>
+@if (Request.IsAuthenticated)
+{
+    <h3>Progress:</h3>
+    <table class="table table-bordered">
+            <tr>
+                <th># Users Under Command</th>
+                <th># Pets Employed</th>
+                <th>Total $$$</th>
+            </tr>
+            <tr>
+                <th>
+                @ViewBag.TotalUsers
+                </th>
+                <th>
+                    @ViewBag.TotalPets
+                </th>
+                <th>
+                    @ViewBag.TotalMoney
+                </th>
+</tr>
+    </table>
+}
 
- 

@@ -18,6 +18,7 @@ namespace Lab6.Data
         void UpdateUser(User id);
         void RemoveUser(User id);
         double BuyPet(double cost, int UzerID);
+        
 
         List<Pet> GetAllPets();
         //Get list of all pets that belong to given ApplicationUser ' username
@@ -26,5 +27,10 @@ namespace Lab6.Data
         Pet GetAPetByID(int id);
         void UpdatePet(Pet id);
         void RemovePet(Pet id);
+
+
+        double GetAccountTotalCash(string username);
+        int GetNumberofEmployees(string username);
+        int GetAccountTotalPets(string username);
     }
 }

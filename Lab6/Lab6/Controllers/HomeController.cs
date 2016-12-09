@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Lab6.Data;
+using Microsoft.AspNet.Identity;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -8,8 +10,20 @@ namespace Lab6.Controllers
 {
     public class HomeController : Controller
     {
+        private readonly DatabaseAccessI _dataRepository;
+
+        public HomeController(DatabaseAccessI dataRepository)
+        {
+            _dataRepository = dataRepository;
+        }
+
         public ActionResult Index()
         {
+            var username = System.Web.HttpContext.Current.User.Identity.GetUserName();
+            ViewBag.TotalMoney = _dataRepository.GetAccountTotalCash(username);
+            ViewBag.TotalPets = _dataRepository.GetAccountTotalPets(username);
+            ViewBag.TotalUsers = _dataRepository.GetNumberofEmployees(username);
+
             return View();
         }
 

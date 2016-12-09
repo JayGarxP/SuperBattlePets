@@ -137,6 +137,32 @@ namespace Lab6.Data
             return usersPets;
         }
 
-        
+        public double GetAccountTotalCash(string username)
+        {
+            double totalCash = 0;
+            var Allusers = GetAllUsers(username);
+            foreach (var uza in Allusers)
+            {
+                totalCash += uza.MyWealth.Cash;
+            }
+            return totalCash;
+        }
+
+        public int GetNumberofEmployees(string username)
+        {
+            return GetAllUsers(username).Count;
+        }
+
+        public int GetAccountTotalPets(string username)
+        {
+            //Technically Users can jointly own a single pet, even across multiple ApplicationUser accounts
+            return GetAllPets(username).Count;
+
+            //var Allusers = GetAllUsers(username);
+            //foreach (var uza in Allusers)
+            //{
+            //    uza.MyPets.Count /// etc. etc.
+            //}
+        }
     }
 }
